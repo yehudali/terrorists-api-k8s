@@ -4,6 +4,5 @@ __pycache__/
 k8s/ 
 .gitignore 
 README.md 
-screenshots/
 .venv
 .env
