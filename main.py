@@ -13,7 +13,7 @@ app = FastAPI()
 def hello():
     return{"message" : "Welcome to Fastapi server!" }
 
-@app.post("/check")
+@app.post("/top-threats")
 def foo(file: UploadFile):
     df = pd.read_csv(file.file)
     dict_most_5_dangerous = get_5_most_dangerous_terrorist(df)
